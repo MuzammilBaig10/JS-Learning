@@ -67,3 +67,32 @@
 //     }
 // }
 
+
+// var studentMarks = [40, 98, 55, 90, 75];
+
+// var sum = 0;
+
+// for (var i = 0; i < studentMarks.length; i++) {
+//  sum = sum + studentMarks[i];
+// }
+
+// var average = sum / studentMarks.length;
+
+// console.log("The average marks are: " + average);
+
+for ( var i = 1; i <= 100; i ++) {
+
+  if ( i % 3 === 0 && i % 5 === 0) {
+        console.log ( i + " Jahaz Mood");
+    }
+    
+    else if (i % 3 === 0) {
+    console.log ( i + "Fizz");    
+    } 
+
+    else if ( i % 5 === 0) {
+        console.log ( i + "Buzz");
+    } 
+
+} 
+
