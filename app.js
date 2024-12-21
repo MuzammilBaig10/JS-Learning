@@ -66,6 +66,7 @@
 //         console.log(i + " is odd");
 //     }
 // 
+
 // var studentMarks = [40, 98, 55, 90, 75];
 
 // var sum = 0;
@@ -78,19 +79,48 @@
 
 // console.log("The average marks are: " + average);
 
-for ( var i = 1; i <= 100; i ++) {
+// for (var i = 1; i <= 100; i++) {
 
-  if ( i % 3 === 0 && i % 5 === 0) {
-        console.log ( i + " Jahaz Mood");
-    }
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log(i + " Jahaz Mood");
+//     }
+
+//     else if (i % 3 === 0) {
+//         console.log(i + "Fizz");
+//     }
+
+//     else if (i % 5 === 0) {
+//         console.log(i + "Buzz");
+//     }
+
+// }
+
+function Greatman() {
+    var userName = prompt ("Enter Your Name");
+    alert ("Welcome," + userName);
+}
+
+function Greatage() {
+    var userAge = prompt ("Enter Your Age")
+    alert ("Roger That");
     
-    else if (i % 3 === 0) {
-    console.log ( i + "Fizz");    
-    } 
+}
 
-    else if ( i % 5 === 0) {
-        console.log ( i + "Buzz");
-    } 
 
-} 
-
+console.log ("THIS IS LINE 1")
+console.log ("THIS IS LINE 2")
+console.log ("THIS IS LINE 3")
+console.log ("THIS IS LINE 4")
+console.log ("THIS IS LINE 5")
+Greatman ()
+console.log ("THIS IS LINE 6")
+console.log ("THIS IS LINE 7")
+console.log ("THIS IS LINE 8")
+console.log ("THIS IS LINE 9")
+console.log ("THIS IS LINE 10")
+Greatage ()
+console.log ("THIS IS LINE 11")
+console.log ("THIS IS LINE 12")
+console.log ("THIS IS LINE 13")
+console.log ("THIS IS LINE 14")
+console.log ("THIS IS LINE 15")
