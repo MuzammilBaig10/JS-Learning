@@ -65,9 +65,7 @@
 //     } else {
 //         console.log(i + " is odd");
 //     }
-// }
-
-
+// 
 // var studentMarks = [40, 98, 55, 90, 75];
 
 // var sum = 0;
