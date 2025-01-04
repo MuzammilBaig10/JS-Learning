@@ -5,7 +5,7 @@
 // // // // // // if (x == "fruits") {
 
 // // // // // //     list.push("apple,orange,mango")
-// // // // // //     alert(list) 
+// // // // // //     alert(list)
 
 // // // // // // } else if (x == "colors") {
 
@@ -32,7 +32,6 @@
 // // var lastNames = ["abdullah", "ahmed", "daniyal"]
 
 // // for (var i = 0; i < 5; i++) {
-
 
 // //     for (var j = 0; j < 3; j++) {
 // //         console.log(firstNames[i] + " " + lastNames[j])
@@ -65,7 +64,7 @@
 // //     } else {
 // //         console.log(i + " is odd");
 // //     }
-// // 
+// //
 
 // // var studentMarks = [40, 98, 55, 90, 75];
 
@@ -103,9 +102,8 @@
 // // function Greatage() {
 // //     var userAge = prompt ("Enter Your Age")
 // //     alert ("Roger That");
-    
-// // }
 
+// // }
 
 // // console.log ("THIS IS LINE 1")
 // // console.log ("THIS IS LINE 2")
@@ -124,3 +122,12 @@
 // // console.log ("THIS IS LINE 13")
 // // console.log ("THIS IS LINE 14")
 // // console.log ("THIS IS LINE 15")
+
+function readmoreparagraph() {
+  var para = (document.getElementById("myPara").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam sunt ipsum sed cupiditate. Itaque accusantium in vitae perferendis repellat, earum adipisci dolorem nihil optio velit voluptas saepe assumenda nemo. Salam wasakam okay left right left you he she shemale female male gender equality good to know them answers. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam sunt ipsum sed cupiditate. Itaque accusantium in vitae perferendis repellat, earum adipisci dolorem nihil optio velit voluptas saepe assumenda nemo.");
+}
+
+function readlessparagraph() {
+    var para = (document.getElementById("myPara").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam sunt ipsum sed cupiditate. Itaque accusantium in vitae perferendis repellat, earum adipisci dolorem nihil optio velit voluptas saepe assumenda nemo. Salam wasakam okay left right left you he she shemale female male gender equality good to know them answers.");
+  }
+  
