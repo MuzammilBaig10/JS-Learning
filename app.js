@@ -123,11 +123,26 @@
 // // console.log ("THIS IS LINE 14")
 // // console.log ("THIS IS LINE 15")
 
-function readmoreparagraph() {
+var flagVariable = false
+function main() {
+
+  if (flagVariable === false) {
+    readmore();
+    document.getElementById("myBTN").innerHTML = "readless";
+    flagVariable = true;
+  }else {
+    readless ();
+    document.getElementById ("myBTN").innerHTML = "readmore";
+    flagVariable = false;
+  }
+  
+}
+
+function readmore() {
   var para = (document.getElementById("myPara").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam sunt ipsum sed cupiditate. Itaque accusantium in vitae perferendis repellat, earum adipisci dolorem nihil optio velit voluptas saepe assumenda nemo. Salam wasakam okay left right left you he she shemale female male gender equality good to know them answers. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam sunt ipsum sed cupiditate. Itaque accusantium in vitae perferendis repellat, earum adipisci dolorem nihil optio velit voluptas saepe assumenda nemo.");
 }
 
-function readlessparagraph() {
+function readless() {
     var para = (document.getElementById("myPara").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam sunt ipsum sed cupiditate. Itaque accusantium in vitae perferendis repellat, earum adipisci dolorem nihil optio velit voluptas saepe assumenda nemo. Salam wasakam okay left right left you he she shemale female male gender equality good to know them answers.");
   }
   
