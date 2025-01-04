@@ -157,16 +157,22 @@ var plan1 = {
   monthly: 3.99,
   disk: 100,
   data: 1000,
-  pages: 10,
-  autosubscriptionrenewal: false,
+  pages: [10,20,30,40,50],
+  autosubscriptionrenewal: function() {
+    alert("HELLO WORLD")
+  },
 }; 
 
-console.log(plan1.autosubscriptionrenewal);
-console.log(plan1.data);
-console.log(plan1.pages);
-console.log(plan1);
+for (myitem in plan1){
+  console.log(myitem + " " + plan1[myitem])
+}
 
-plan1["monthly"] = 100;
-console.log(plan1);
-plan1.monthly = 150;
-console.log(plan1);
+// console.log(plan1.autosubscriptionrenewal);
+// console.log(plan1.data);
+// console.log(plan1.pages);
+// console.log(plan1);
+
+// plan1["monthly"] = 100;
+// console.log(plan1);
+// plan1.monthly = 150;
+// console.log(plan1);
