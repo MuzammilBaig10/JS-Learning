@@ -177,7 +177,13 @@
 // plan1.monthly = 150;
 // console.log(plan1);
 
-function Myname() {
-  return "Muzammil Baig";
-}
-console.log(Myname()); 
+// function Myname() {
+//   return "Muzammil Baig";1
+// }
+// console.log(Myname()); 
+
+const myName = "Muzammil Baig"
+const vowels = ['a', 'e', 'i', 'o', 'u']
+let result = []
+
+for (let i = 0; i < vowels.length; i++);
