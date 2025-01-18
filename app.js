@@ -152,20 +152,20 @@
 // }
 
 
-var plan1 = {
-  name: "Basic",
-  monthly: 3.99,
-  disk: 100,
-  data: 1000,
-  pages: [10,20,30,40,50],
-  autosubscriptionrenewal: function() {
-    alert("HELLO WORLD")
-  },
-}; 
+// var plan1 = {
+//   name: "Basic",
+//   monthly: 3.99,
+//   disk: 100,
+//   data: 1000,
+//   pages: [10,20,30,40,50],
+//   autosubscriptionrenewal: function() {
+//     alert("HELLO WORLD")
+//   },
+// }; 
 
-for (myitem in plan1){
-  console.log(myitem + " " + plan1[myitem])
-}
+// for (myitem in plan1){
+//   console.log(myitem + " " + plan1[myitem])
+// }
 
 // console.log(plan1.autosubscriptionrenewal);
 // console.log(plan1.data);
@@ -176,3 +176,8 @@ for (myitem in plan1){
 // console.log(plan1);
 // plan1.monthly = 150;
 // console.log(plan1);
+
+function Myname() {
+  return "Muzammil Baig";
+}
+console.log(Myname()); 
